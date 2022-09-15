@@ -1,0 +1,13 @@
+public class firstnonrepeatingcharfind{
+    public static void main(String args[]) {
+     
+        String inputStr ="Anvitha";
+
+        for(char i :inputStr.toCharArray()){
+        if ( inputStr.indexOf(i) == inputStr.lastIndexOf(i)) {
+            System.out.println("first non-repeating character of the given string is "+i);
+            break;
+        }
+        }
+    }
+}
